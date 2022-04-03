@@ -17,3 +17,5 @@ function toggleTheme(firstSheet,secondSheet) {
 }
 
 toggleButton.addEventListener("click",event => toggleTheme(darkStyleSheet,lightStyleSheet));
+
+
