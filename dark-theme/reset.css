@@ -46,3 +46,41 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* *********************** */
+/* **** END RESET ******** */
+/* *********************** */
+
+
+
+/* **** DEFAULT STYLES **** */
+
+* {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 10% 0%;
+}
+
+.toggle-theme {
+  margin: 10% 0 0 0;
+}
+
+h1 {
+  margin: 12% 0 8% 0;
+  font-size: 1.5rem;
+}
+
+.lyrics {
+  margin: 0 0 10% 0%;
+}
+
+p {
+  line-height: 2rem;
+  font-size: 1rem;
+}
+

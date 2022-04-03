@@ -82,12 +82,14 @@ body {
   background-color: darkgrey;
   color: white;
   width: 30%;
-  height: 10%;
+  padding: 1%;
+  height: auto;
   border: 1px solid lightgrey;
   border-radius: 10px;
 }
 
-.modal p {
+.modal > div > p {
+  padding: 5%;
   text-align: center;
 }
 
