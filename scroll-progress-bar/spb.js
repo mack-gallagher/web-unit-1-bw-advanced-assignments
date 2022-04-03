@@ -7,7 +7,7 @@ let innerProgressBar = document.querySelector('.inner-scroll-bar');
 
 function updateBarHeight() {
   let currOffset = window.scrollY;
-  let totalHeight = document.body.scrollHeight;
+  let totalHeight = document.body.scrollHeight - window.innerHeight;
   console.log(`currOffset: ${currOffset}`);
   console.log(`totalHeight: ${totalHeight}`); 
   let currPercentHeight = (currOffset / totalHeight)*100;
