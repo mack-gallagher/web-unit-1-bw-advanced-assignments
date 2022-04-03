@@ -88,7 +88,7 @@ body {
   border-radius: 10px;
 }
 
-.modal > div > p {
+.modal > p {
   padding: 5%;
   text-align: center;
 }
