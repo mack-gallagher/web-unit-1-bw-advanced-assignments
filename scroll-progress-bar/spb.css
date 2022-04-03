@@ -55,32 +55,34 @@ table {
 /* ****** END RESET ********* */
 /* ************************** */
 
-body { 
-  min-height: 270vh;
+body {
+  height: 180vh;
+  background-color: rgb(200,100,100);
 }
 
 .omni-container {
   background-color: red;
-  position: absolute;
-  top: 0px;
   padding: 5%;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  min-height: 100%;
+  min-height: 180vh;
   width: 90vw;
+  position: relative;
+  top: -80vh;
 }
 
 .outer-scroll-bar {
   display: flex;
   height: 80vh;
-  width: 10%;
+  width: 1%;
   background-color: black;
   position: sticky;
-  top: 20px;
+  top: 10%;
 }
 
 .inner-scroll-bar {
   height: 50%;
   width: 100%;
-  background-color: green; }
+  background-color: green;
+}

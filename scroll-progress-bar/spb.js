@@ -2,14 +2,15 @@
 // what's the usual measurement of a progress bar? you'll need to measure the same way here
 // use that measurement to update the style of your inner fill element as you scroll
 
+
 let innerProgressBar = document.querySelector('.inner-scroll-bar');
 
 function updateBarHeight() {
-  let currOffset = window.pageYOffset;
-  let totalHeight = document.body.offsetHeight;
+  let currOffset = window.scrollY;
+  let totalHeight = document.body.scrollHeight;
   console.log(`currOffset: ${currOffset}`);
   console.log(`totalHeight: ${totalHeight}`); 
-  let currPercentHeight = (window.pageYOffset / document.body.offsetHeight)*100
+  let currPercentHeight = (currOffset / totalHeight)*100;
   innerProgressBar.style.height = `${currPercentHeight}%`;
 }
 
